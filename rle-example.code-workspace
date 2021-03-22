@@ -1,0 +1,24 @@
+{
+	"folders": [
+        {
+            "name": "rle-example",
+            "path": "."
+        },
+        {
+            "name": "rle-lib",
+            "path": "./.ra/deps/ggramlich/kickass-run-length-encoding/lib"
+        },
+    ],
+    "settings": {
+        "files.associations": {
+            "*.asm": "kickassembler"
+        },
+        "kickassembler.outputDirectory": "./Output",
+        "files.exclude": {
+            "**/.asminfo.txt": true,
+            "**/.source.txt": true,
+            "**/Output": true
+        },
+        "kickassembler.debuggerOptions": "-wait 12000 -autojmp",
+    }
+}
