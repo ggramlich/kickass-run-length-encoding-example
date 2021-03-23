@@ -14,5 +14,5 @@ retroProject {
     srcDirs = ["src"]
 
     // dependencies
-    libFromGitHub "ggramlich/kickass-run-length-encoding", "master"
+    libFromGitHub "ggramlich/kickass-run-length-encoding", "main"
 }
